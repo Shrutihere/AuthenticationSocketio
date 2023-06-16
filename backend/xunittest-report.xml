@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="4" errors="0" time="9.068">
+  <testsuite name="main.test.js" errors="0" failures="4" skipped="0" timestamp="2023-02-21T12:14:30" time="6.017" tests="4">
+    <testcase classname="Backend Test" name="Register User Success" time="0.055">
+      <failure>Error: expect(received).toMatchObject(expected)
+
+- Expected  - 6
++ Received  + 1
+
+  Object {
+-   &quot;user&quot;: Object {
+-     &quot;email&quot;: &quot;test1@hotmail.com&quot;,
+-     &quot;images&quot;: Array [],
+-     &quot;password&quot;: &quot;123456&quot;,
+-     &quot;username&quot;: &quot;test1&quot;,
+-   },
++   &quot;user&quot;: undefined,
+  }
+    at Object.toMatchObject (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\main.test.js:24:22)
+    at Promise.then.completed (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\utils.js:333:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\utils.js:259:10)
+    at _callCircusTest (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:277:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:209:3)
+    at _runTestsForDescribeBlock (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:97:9)
+    at _runTestsForDescribeBlock (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:91:9)
+    at run (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:31:3)</failure>
+    </testcase>
+    <testcase classname="Backend Test" name="Register User Failed" time="0.01">
+      <failure>Error: expect(received).toMatchObject(expected)
+
+- Expected  - 1
++ Received  + 1
+
+  Object {
+-   &quot;error&quot;: &quot;User already exists!&quot;,
++   &quot;error&quot;: undefined,
+  }
+    at Object.toMatchObject (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\main.test.js:30:22)
+    at Promise.then.completed (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\utils.js:333:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\utils.js:259:10)
+    at _callCircusTest (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:277:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:209:3)
+    at _runTestsForDescribeBlock (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:97:9)
+    at _runTestsForDescribeBlock (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:91:9)
+    at run (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:31:3)</failure>
+    </testcase>
+    <testcase classname="Backend Test" name="Login User Success" time="0.013">
+      <failure>Error: expect(received).toMatchObject(expected)
+
+- Expected  - 3
++ Received  + 1
+
+  Object {
+-   &quot;user&quot;: Object {
+-     &quot;_email&quot;: &quot;test1@hotmail.com&quot;,
+-   },
++   &quot;user&quot;: undefined,
+  }
+    at Object.toMatchObject (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\main.test.js:36:22)
+    at Promise.then.completed (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\utils.js:333:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\utils.js:259:10)
+    at _callCircusTest (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:277:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:209:3)
+    at _runTestsForDescribeBlock (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:97:9)
+    at _runTestsForDescribeBlock (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:91:9)
+    at run (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:31:3)</failure>
+    </testcase>
+    <testcase classname="Backend Test" name="Login User Failed" time="0.013">
+      <failure>Error: expect(received).toMatchObject(expected)
+
+- Expected  - 1
++ Received  + 1
+
+  Object {
+-   &quot;error&quot;: &quot;Incorrect credentials&quot;,
++   &quot;error&quot;: undefined,
+  }
+    at Object.toMatchObject (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\main.test.js:42:22)
+    at Promise.then.completed (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\utils.js:333:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\utils.js:259:10)
+    at _callCircusTest (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:277:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:209:3)
+    at _runTestsForDescribeBlock (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:97:9)
+    at _runTestsForDescribeBlock (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:91:9)
+    at run (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\backend\node_modules\jest-circus\build\run.js:31:3)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

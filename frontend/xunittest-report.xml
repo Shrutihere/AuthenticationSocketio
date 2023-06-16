@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="1" errors="0" time="5.94">
+  <testsuite name="sample.test.js" errors="0" failures="1" skipped="0" timestamp="2023-02-21T12:20:04" time="5.045" tests="1">
+    <testcase classname="Frontend Test › Testing Socket IO" name="Register component success" time="1.414">
+      <failure>Error: expect(jest.fn()).toBeCalledWith(...expected)
+
+Expected: &quot;register&quot;, {&quot;email&quot;: &quot;test1@gmail.com&quot;, &quot;password&quot;: &quot;123456&quot;, &quot;username&quot;: &quot;test1&quot;}
+
+Number of calls: 0
+
+Ignored nodes: comments, &lt;script /&gt;, &lt;style /&gt;
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body&gt;
+    &lt;div&gt;
+      &lt;div
+        class=&quot;register&quot;
+      &gt;
+        &lt;h2
+          style=&quot;margin-bottom: 30px;&quot;
+        &gt;
+          Register
+        &lt;/h2&gt;
+        &lt;form
+          class=&quot;register__form&quot;
+        &gt;
+          &lt;label
+            for=&quot;email&quot;
+          &gt;
+            Email Address
+          &lt;/label&gt;
+          &lt;input
+            class=&quot;input&quot;
+            id=&quot;email&quot;
+            name=&quot;email&quot;
+            required=&quot;&quot;
+            type=&quot;email&quot;
+            value=&quot;test1@gmail.com&quot;
+          /&gt;
+          &lt;label
+            for=&quot;username&quot;
+          &gt;
+            Username
+          &lt;/label&gt;
+          &lt;input
+            class=&quot;input&quot;
+            id=&quot;username&quot;
+            name=&quot;username&quot;
+            required=&quot;&quot;
+            type=&quot;text&quot;
+            value=&quot;test1&quot;
+          /&gt;
+          &lt;label
+            for=&quot;password&quot;
+          &gt;
+            Password
+          &lt;/label&gt;
+          &lt;input
+            class=&quot;input&quot;
+            id=&quot;password&quot;
+            minlength=&quot;6&quot;
+            name=&quot;password&quot;
+            required=&quot;&quot;
+            type=&quot;password&quot;
+            value=&quot;123456&quot;
+          /&gt;
+          &lt;button
+            class=&quot;registerBtn&quot;
+          &gt;
+            REGISTER
+          &lt;/button&gt;
+          &lt;p
+            style=&quot;text-align: center;&quot;
+          &gt;
+            Already have an account?
+             
+            &lt;a
+              class=&quot;link&quot;
+              href=&quot;/&quot;
+            &gt;
+              Sign in
+            &lt;/a&gt;
+          &lt;/p&gt;
+        &lt;/form&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+    at D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\frontend\sample.test.js:46:33
+    at runWithExpensiveErrorDiagnosticsDisabled (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\frontend\node_modules\@testing-library\dom\dist\config.js:50:12)
+    at checkCallback (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\frontend\node_modules\@testing-library\dom\dist\wait-for.js:141:77)
+    at checkRealTimersCallback (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\frontend\node_modules\@testing-library\dom\dist\wait-for.js:133:16)
+    at Timeout.task [as _onTimeout] (D:\Projects\Hackerearth Intern\Authentication with Socket.io\AuthenticationSocket.ioSkeleton\AuthenticationSocket.io\New folder\AuthenticationSocket.io\frontend\node_modules\jsdom\lib\jsdom\browser\Window.js:516:19)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
